@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "link-contracts": "cd lib && ln -s ../../build/contracts contracts",
+    "devnext": "node server.js"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "fs-extra": "^8.1.0",
+    "net": "^1.0.2",
+    "next": "^6.1.1",
+    "next-routes": "^1.4.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.2",
+    "truffle-hdwallet-provider": "1.0.12",
+    "web3": "^1.0.0-beta.34"
+  }
+}
